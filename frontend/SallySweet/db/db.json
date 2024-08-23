@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Twirl Chocoloate",
+      "description": "Delicious milk chocolate",
+      "price": 3.99,
+      "imageUrl": "../src/assets/products/twirl.png",
+      "isDiscounted": true,
+      "discountPrice": 3.00,
+      "off": 24.76,
+      "stock": 100,
+      "isSeasonal": false,
+      "isOnSale": true,
+      "category": "all",
+      "endOfLine": false,
+      "sellByDate": "2024-05-01"
+    },
+    {
+      "id": 2,
+      "name": "Snickers",
+      "description": "Classic chocolate bar with peanuts and caramel",
+      "price": 2.49,
+      "imageUrl": "../src/assets/products/Snickers.png",
+      "isDiscounted": false,
+      "discountPrice": 2.49, 
+      "stock": 50,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 3,
+      "name": "KitKat",
+      "description": "Crunchy wafer covered in milk chocolate",
+      "price": 1.99,
+      "imageUrl": "../src/assets/products/Kitkat.png",
+      "isDiscounted": false,
+      "discountPrice": 1.99,
+      "stock": 75,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 4,
+      "name": "Galaxy",
+      "description": "Colorful candy-coated chocolate",
+      "price": 1.00,
+      "imageUrl": "../src/assets/products/Galaxy.png",
+      "isDiscounted": true,
+      "off": 10.00,
+      "discountPrice": 0.99,
+      "stock": 100,
+      "isSeasonal": true,
+      "isOnSale": true,
+      "category": "all"
+    },
+    {
+      "id": 5,
+      "name": "Dairy Milk",
+      "description": "Milk chocolate cups filled with peanut butter",
+      "price": 2.00,
+      "imageUrl": "../src/assets/products/DairyMilk.png",
+      "isDiscounted": false,
+      "off": 10.00,
+      "discountPrice": 1.98,
+      "stock": 80,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 6,
+      "name": "Toblerone",
+      "description": "Delicious milk chocolate",
+      "price": 3.99,
+      "imageUrl": "../src/assets/products/Toblerone.png",
+      "isDiscounted": false,
+      "discountPrice": 3.99,
+      "stock": 60,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 7,
+      "name": "Hershey's Milk Chocolate",
+      "description": "Delicious milk chocolate",
+      "price": 2.49,
+      "imageUrl": "../src/assets/products/Hershey.png",
+      "isDiscounted": false,
+      "discountPrice": 2.49,
+      "stock": 70,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 8,
+      "name": "Twix",
+      "description": "Crunchy wafer covered in milk chocolate",
+      "price": 1.99,
+      "imageUrl": "../src/assets/products/Twix.png",
+      "isDiscounted": false,
+      "discountPrice": 1.99,
+      "stock": 85,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    },
+    {
+      "id": 9,
+      "name": "M&M's",
+      "description": "Colorful candy-coated chocolate",
+      "price": 0.99,
+      "imageUrl": "../src/assets/products/m&m.png",
+      "isDiscounted": true,
+      "discountPrice": 0.99,
+      "stock": 90,
+      "isSeasonal": true,
+      "isOnSale": true,
+      "category": "all"
+    },
+    {
+      "id": 10,
+      "name": "Pick & Mix",
+      "description": "Mix and match your favorite candies",
+      "price": 1.49,
+      "imageUrl": "../src/assets/products/PickMix.png",
+      "isDiscounted": false,
+      "discountPrice": 1.49,
+      "stock": 100,
+      "isSeasonal": false,
+      "isOnSale": false,
+      "category": "all"
+    }
+  ],
+
+    "events": [
+        {
+            "id": 1,
+            "title": "Birthday Party",
+            "image": "../src/assets/Images/Events/Birthday.jpg",
+            "description": "Description for BirthDay Party",
+            "date": "2024-01-01"
+        },
+        {
+            "id": 2,
+            "title": "Christmas Party",
+            "image": "../src/assets/Images/Events/chrismas.jpg",
+            "description": "Description for Christmas Party",
+            "date": "2024-01-02"
+        },
+        {
+            "id": 3,
+            "title": "Arshad Party",
+            "image": "../src/assets/Images/Events/anni.jpg",
+            "description": "Description for Anniversary Party",
+            "date": "2024-01-02"
+        }
+    ],
+    "orders": [],
+    "users": [],
+    "coupons": [
+    {
+      "code": "NEWYEAR",
+      "discount": 20 
+    }]
+}
+  
